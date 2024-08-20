@@ -1,0 +1,25 @@
+#first-paragraph {
+    color:blue;
+    background-color:goldenrod;
+    font-style: italic
+    text-align: center
+
+}
+#second-paragraph {
+    color: red;
+    background-color: lightpink;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+
+#span1 {
+    color: pink;
+    font-weight: bold;
+    font-size: 48px
+}
+
+#span2 {
+    text-decoration: underline;
+}
