@@ -1,0 +1,108 @@
+#palette1-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #d6bbc0;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #D0A3BF;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background-color: #C585B3;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color4 {
+    background-color: #AF42AE;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color1 {
+    background-color: #90F1EF;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color2 {
+    background-color: #FFD6E0;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color3 {
+    background-color: #FFEF9F;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color4 {
+    background-color: #C1FBA4;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color1 {
+    background-color: #FF5714;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color2 {
+    background-color: #FFB800;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color3 {
+    background-color: #E4FF1A;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color4 {
+    background-color: #6EEB83;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color5 {
+    background-color: #1BE7FF;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
