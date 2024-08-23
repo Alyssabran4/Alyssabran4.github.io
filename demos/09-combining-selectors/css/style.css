@@ -1,0 +1,39 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: pink;
+}
+
+/* a {
+    color: palevioletred
+} */
+ #navbar a{
+    color: palevioletred
+ }
+
+ p a {
+    color: magenta;
+ }
+    
+ p.warning {
+    color: rgb(227, 12, 116);
+ }
+
+ p.warning a {
+    color: orange;
+ }
+
+ ul {
+    color: green;
+ }
+
+ ul a {
+    color: lime;
+ }
+
+ ul p a {
+    color: purple;
+ }
+ ul div a {
+    color: lightblue;
+ }
