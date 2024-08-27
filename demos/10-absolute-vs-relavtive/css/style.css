@@ -1,0 +1,25 @@
+.absolute-image {
+    width: 350px;
+}
+
+.relative-image {
+    width: 100%;
+}
+
+.outter-container {
+    background-color: aqua;
+    border: 10px solid red;
+    width: 100%
+}
+
+.inner-container {
+    border: 10px solid blue;
+    width: 50%;
+    background-color: pink;
+}
+
+.inner-container p,
+.inner-container img {
+    display: inline-block;
+    width: 50%;
+}

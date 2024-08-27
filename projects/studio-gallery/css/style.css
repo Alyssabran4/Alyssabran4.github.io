@@ -1,0 +1,37 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#art1 {
+    width: 90px;
+    margin-right: 150px;
+    border: 10px solid gray;
+    padding: 10px; 
+    background-color:blanchedalmond;
+}
+
+#art2 {
+    width: 50px;
+    margin-right: 50px;
+    border: 7px solid rgb(101, 91, 91);
+    padding: 12px; 
+    background-color:rgb(227, 163, 66);
+}
+
+#artboard3 {
+    width: 50px;
+    border: 8px solid black;
+    padding: 6px;
+    margin-bottom: 120px;
+    background-color: beige;
+}
+
+#art3 {
+    width: 50px;
+    display: block;
+}
