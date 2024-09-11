@@ -16,15 +16,21 @@
     font-size: 8vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
+    color: white;
 }
 
-#hero-3 h4 {
+#hero-3 p {
+    /* border: 3px solid black; */
+    background-color: gray;
+    color: white;
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+    border: 2px solid black;
+    padding: 4px;
 }
 
 #hero-3 a {
-    font-size: 1.5vw;
+    font-size: 3vw;
     display: inline-block;
     background-color: #333333;
     color: white;
@@ -32,3 +38,8 @@
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
 }
+
+#hero-3 a:hover {
+    text-decoration: underline;
+}
+
