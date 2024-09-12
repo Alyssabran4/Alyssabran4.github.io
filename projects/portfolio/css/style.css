@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url("../images/emerald-seas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero {
+    background-image: url("../images/pink.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;;
+    background-color: rgb(234, 232, 206);
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+   }
+   
+#card-section {
+    background-color: pink;
+    border: 10px solid white;
+    color: white;
+    padding: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+   }
+
+.card {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+   }
+   
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+   
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+   }
+
+#card-section a {
+    font-size: 2vw;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;;
+    background-color: rgb(234, 232, 206);
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 0vw 5vh 5px;
+    text-align: center;
+}
+
+#card-section h3 {
+    font-family: cursive;
+    text-decoration: dotted underline;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px dotted pink;
+    padding: 24px;
+    gap: 12px;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+}

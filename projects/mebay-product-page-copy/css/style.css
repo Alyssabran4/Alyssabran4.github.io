@@ -5,6 +5,7 @@
 .holy-grail-flexbox {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .holy-grail-flexbox * {
@@ -28,18 +29,3 @@
     background-color: #c5ed77;
 }
 
-@media (min-width:1024px) {
-    .holy-grail-flexbox .header {
-        order:-2;
-    }
-    .holy-grail-flexbox .left-sidebar {
-        order:-1;
-    }
-    .holy-grail-flexbox .main-content {
-        width: 50%;
-    }
-    .holy-grail-flexbox .left-sidebar,
-    .holy-grail-flexbox .right-sidebar {
-        width: 25%;
-    }
-}
