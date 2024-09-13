@@ -113,10 +113,22 @@ body {
     text-align: center;
 }
 
-.portfolio-gallery {
+/* .portfolio-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 10px dotted pink;
+    padding: 24px;
+    gap: 12px;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+} */
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
     padding: 24px;
     gap: 12px;
 }
