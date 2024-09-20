@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/dog-seamless-pattern-paws-bones-600nw-2350264459.jpg.webp);
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #D0B49F, #A47551);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #D0B49F, #A47551);
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #E4D4C8;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #523A28;
+}
+
+#hero-3 {
+    background-image: url("../images/pexels-bekka419-1452717.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 35%;
+    left: 4%;
+}
+
+#hero-3 h2 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#layout {
+    border-radius: 100px;
+    padding: 20px 20px;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: #A47551;
+}
+
+#layout img {
+    height: 400px;
+}
+
+#layout-2 {
+    border-radius: 100px;
+    padding: 20px 20px;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: #A47551;
+}
+
+#layout-2 img {
+    height: 400px;
+}
+
+#layout-3 {
+    border-radius: 100px;
+    padding: 20px 20px;
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    background-color: #A47551;
+}
+
+#layout-3 img {
+    height: 400px;
+}
+
+@media screen and (max-width 768) and (min-width: 480px) {
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown-container {
+        flex-wrap: wrap;
+    }
+    
+    .dropdown-container h1 {
+        font-size: 32px;
+    }
+
+    #hero-content img  {
+        height: 300px;
+    }
+}
