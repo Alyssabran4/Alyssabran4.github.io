@@ -40,10 +40,10 @@ body {
     margin-right: auto;
 }
 
-#navbar {
+/* #navbar {
     position: sticky;
     top: 0px;
-}
+} */
 
 
 #navbar-bottom a {
@@ -96,7 +96,7 @@ body {
 }
 
 #hero-3 {
-    background-image: url("../images/pexels-muffin-1653877.jpg");
+    background-image: url("../images/pizza0.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -119,6 +119,10 @@ body {
     margin-right: 9vw;
 }
 
+.pagelayout h1 {
+    background-color: #996833;;
+}
+
 
 #hero-3 a {
     font-size: 3vw;
@@ -129,6 +133,28 @@ body {
     text-decoration: none;
     padding: 24px;
     margin: 9vh 5vw 10vh 0px;
+}
+
+.media-text {
+    background-color: #006837;
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.media-text .media {
+    flex: 1;
+}
+
+.media-text .text {
+    font-size: 30px;
+    margin: 20px;
+    padding: 25px;
+}
+
+.media-text .media img {
+    width: 300px;
+    padding: 20px;
 }
 
 .pagelayout {
@@ -161,7 +187,7 @@ body {
 }
 
 .section-1 .image-container img{
-    width: 100%
+    width: 200px;
 }
 
 .section-1 .text-container h3 {
@@ -180,5 +206,61 @@ body {
 }
 
 .menu-1 {
+    flex-wrap: wrap;
+    margin: 24px;
+    padding: 24px;
     background-color: #c7b299;
+}
+
+.menu-1 h1 {
+    background-color: #996833;
+    font-weight: bold;
+    color: #black;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 55px;
+    margin-bottom: 9vh;
+    margin-right: 9vw;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .pagelayout {
+        gap: 10px;
+    }
+
+    .media {
+        height: 200px;
+        width: 100%;
+    }
+
+    #footer-columns-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagelayout h1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .menu-1 h1 {
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+    }
 }
