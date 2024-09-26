@@ -170,10 +170,15 @@ body {
 
 #menu-contents {
     display: flex;
-    background-color: #c7b299;
+    /* background-color: #c7b299; */
     margin: 5px;
 }
 
 #menu-contents p {
+    flex-wrap: wrap;
     padding: 2px;
+}
+
+.menu-1 {
+    background-color: #c7b299;
 }
